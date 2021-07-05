@@ -1,4 +1,4 @@
-# Movies Website
+:movie_camera: # Movies Website
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -11,6 +11,7 @@
 </details>
 
 ## About The Project
+Before you read, I recommend you to see the [demo](https://demo-search-movies.herokuapp.com). :blush:</br>
 This project is a movie website that was built with Node.js ana express.</br>
 There are 2 data sources - one is a web service and the second is JSON file, one for the new movie, and the other for the new users.</br>
 The menu page allows the user to search movies and create a movie.</br>

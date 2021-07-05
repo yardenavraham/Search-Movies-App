@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/b789d2f351.js" crossorigin="anonymous"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <div class="showcase">
+        <div class="showcase-top">
+            <img src="https://i.ibb.co/r5krrdz/logo.png" alt="" />
+        </div>
+        <div class="showcase-content">
+            <h1>Sign In</h1>
+            <form action="/" method="POST">
+
+                <div class="txtb">
+                    <label>User Name : </label>
+                    <input type="text" name="username" placeholder="Enter your name"><br />
+                </div>
+                <div class="txtb">
+                    <label>Password : </label>
+                    <input type="password" name="pwd" placeholder="Enter your password"> <br />
+                </div>
+
+                <input class="btn" type="submit" value="Send">
+            </form>
+            <% if(msg !='' ) { %>
+                <div>
+                    <%= msg %>
+                </div>
+                <% } %>
+        </div>
+    </div>
+</body>
+
+</html>

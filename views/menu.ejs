@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/b789d2f351.js" crossorigin="anonymous"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <div class="background-container">
+        <div class="menu">
+            <a class="link menu" href="/searchMovies">Search for movies</a>
+            <a class="link menu" href="/createMovie">Create new movie</a>
+
+            <% if(usernameSession=="Admin" ) { %>
+                <a class="link menu" href="/userManagement">Edit users</a>
+                <% } %>
+        </div>
+    </div>
+
+</body>

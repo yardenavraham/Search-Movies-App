@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/b789d2f351.js" crossorigin="anonymous"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+
+    <div class="background-container">
+        <div class="showcase-content">
+            <h1>User management</h1>
+            <% usersData.forEach((elm, index)=> { %>
+                <ul class="">
+                    <li class="grid-container">
+                        <a class="grid-item">
+                            <%= elm.userName %>
+                        </a>
+                        <a class="grid-item l" href="/userManagement/update/<%= elm.id %>">Update</a>
+                        <a class="grid-item l" href="/userManagement/delete/<%= elm.id %>">Delete</a>
+                    </li>
+                </ul>
+                <% }); %>
+                    <a class="btn u" href="/userManagement/addUser">Add new user</a>
+        </div>
+        <a class="link back" href="/menu">back</a>
+
+    </div>
+</body>
+
+</html>

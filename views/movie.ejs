@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/b789d2f351.js" crossorigin="anonymous"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <div class="background-container">
+        <div class="showcase-content">
+            <div class="txtb">
+                <label>Id :<%= movieData.id %> </label>
+                <br>
+            </div>
+            <div class="txtb">
+                <label>Name :<%= movieData.name %></label>
+                <br>
+            </div>
+            <div class="txtb">
+                <label>Genre :<%= movieData.genres %> </label>
+                <br>
+            </div>
+            <div class="txtb">
+                <label>Language : <%= movieData.language %></label>
+                <br>
+            </div>
+            <% if(movieData.image) { %>
+                <img class="img-movie" src=" <%= movieData.image.medium %>" alt="">
+                <% } %>
+
+
+        </div>
+        <a class="link back" href="/searchMovies">back</a>
+    </div>
+
+</body>
+
+</html>

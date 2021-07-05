@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/b789d2f351.js" crossorigin="anonymous"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <div class="background-container">
+        <div class="showcase-content">
+
+            <h1>User data</h1>
+
+            <form action="" method="POST">
+                <% if(userData!=null) { %>
+                    <div class="txtb">
+                        <label> User name :</label>
+                        <input type="text" name="username" value=<%=userData.userName %>><br />
+                    </div>
+                    <div class="txtb">
+                        <label>Password : </label>
+                        <input type="password" name="pwd" value=<%=userData.password %>> <br />
+                    </div>
+                    <div class="txtb">
+                        <label>Created date : </label>
+
+                        <input type="date" name="date" value=<%=userData.createdDate %>><br />
+                    </div>
+                    <div class="txtb">
+                        <label>Num of transactions :</label>
+                        <input type="text" name="numTransactions" value=<%=userData.numTransactions %>> <br />
+                    </div>
+                    <% } else { %>
+                        <div class="txtb">
+                            <label> User name :</label>
+                            <input type="text" name="username"><br />
+                        </div>
+                        <div class="txtb">
+                            <label>Password : </label>
+                            <input type="password" name="pwd"> <br />
+                        </div>
+                        <div class="txtb date">
+                            <label>Created date :</label>
+                            <input type="date" name="date"> <br />
+                        </div>
+                        <div class="txtb">
+                            <label>Num of transactions : </label>
+                            <input type="text" name="numTransactions"> <br />
+                        </div>
+                        <% } %>
+
+                            <input class="btn" type="submit" value="Save">
+            </form>
+        </div>
+        <a class="link back" href="/userManagement">back</a>
+    </div>
+</body>
+
+</html>

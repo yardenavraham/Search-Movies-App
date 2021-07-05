@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/b789d2f351.js" crossorigin="anonymous"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <div class="background-container">
+        <div class="showcase-content">
+            <h1>Search movies</h1>
+
+            <form action="searchMovies/searchResults" method="POST">
+
+                <div class="txtb">
+                    <label>Name : </label>
+                    <input type="text" name="movieName" placeholder="Enter name of movie"><br />
+                </div>
+                <div class="txtb">
+                    <label>Genre : </label>
+                    <select class="search-select" name="genre">
+                        <% genres.forEach(function (genre) { %>
+                            <option value="<%= genre %>">
+                                <%= genre %>
+                            </option>
+                            <% }) %>
+                    </select><br />
+                </div>
+                <div class="txtb">
+                    <label> Language : </label>
+                    <select class="search-select" name="language">
+                        <% languages.forEach(function (language) { %>
+                            <option value="<%= language %>">
+                                <%= language %>
+                            </option>
+                            <% }) %>
+                    </select>
+                </div>
+                <input class="btn" type="submit" value="Search">
+            </form>
+        </div>
+        <a class="link back" href="/menu">back</a>
+    </div>
+</body>
+
+</html>

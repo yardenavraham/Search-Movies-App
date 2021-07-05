@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/b789d2f351.js" crossorigin="anonymous"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <div class="background-container">
+        <div class="showcase-content results">
+
+            <h1>
+                Search results
+            </h1>
+            <div class="tables">
+                <table>
+                    <tr>
+                        <th>Results</th>
+                    </tr>
+                    <% if(movies.length==0) { %>
+                        <tr>
+                            <td>There is no movie that matches your search. Look for other results in the same genre.
+                            </td>
+                        </tr>
+                        <% } %>
+                            <% movies.forEach((elm, index)=> { %>
+                                <tr>
+                                    <td> <a class="movie-link" href="/searchMovies/searchResults/<%= elm.id %>">
+                                            <%= elm.name %>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <% }); %>
+
+                </table>
+
+                <table>
+                    <tr>
+                        <th>From the same genre</th>
+                    </tr>
+                    <% sameGenre.forEach((elm, index)=> { %>
+                        <tr>
+                            <td> <a class="movie-link" href="/searchMovies/searchResults/<%= elm.id %>">
+                                    <%= elm.name %>
+                                </a>
+                            </td>
+                        </tr>
+                        <% }); %>
+                </table>
+            </div>
+
+        </div>
+
+        <a class="link back" href="/searchMovies">back</a>
+
+    </div>
+</body>
+
+</html>

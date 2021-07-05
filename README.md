@@ -18,8 +18,8 @@ Each user has a limited number of transactions. For example, a user that has 3 t
 In the search results, you can see a list of movies that matches to your search. Clicking on the name of the movie will give you all the information about the movie (including an image of the data was retrieved from the web service).
 
 
-![Image of Yaktocat](https://github.com/yardenavraham/Search-Movies-App/blob/movies-project/searchmoviespic.jpeg)
-![Image of Yaktocat](https://github.com/yardenavraham/Search-Movies-App/blob/movies-project/searchmoviesresultspic.jpeg)
+![Image of Yaktocat](https://github.com/yardenavraham/Search-Movies-App/blob/movies-project/searchmoviespic.png)
+![Image of Yaktocat](https://github.com/yardenavraham/Search-Movies-App/blob/movies-project/searchmoviesresultspic.png)
 
 
 ## built-with

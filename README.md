@@ -22,6 +22,8 @@ In the search results, you can see a list of movies that matches to your search.
 ![Image of Yaktocat](https://github.com/yardenavraham/Search-Movies-App/blob/movies-project/searchmoviespic.jpeg)
 ![Image of Yaktocat](https://github.com/yardenavraham/Search-Movies-App/blob/movies-project/searchmoviesresultspic.jpeg)
 
+![search results](https://github.com/yardenavraham/Search-Movies-App/blob/movies-project/seachmoviesresultpic.jpeg)
+
 
 ## built-with
 

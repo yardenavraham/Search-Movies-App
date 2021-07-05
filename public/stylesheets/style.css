@@ -235,9 +235,7 @@ table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  /* background-color: #8E0E00; */
-  background: rgb(31, 28, 24);
-  background: linear-gradient(99deg, rgba(31, 28, 24, 1) 0%, rgba(142, 14, 0, 1) 40%, rgba(142, 14, 0, 1) 65%, rgba(31, 28, 24, 1) 100%);
+  background-color: var(--primary-color);
   color: white;
   text-align: center;
 }

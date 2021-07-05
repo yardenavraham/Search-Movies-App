@@ -30,11 +30,11 @@ Node.js
 
 ## Installation
 
-Install Node.js.
-npm i express
-npm i axios
-npm i nodemon
-npm i jsonfile
+Install Node.js</br>
+npm i express</br>
+npm i axios</br>
+npm i nodemon</br>
+npm i jsonfile</br>
 
 ## How to use?
 USERNAME: Admin 

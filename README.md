@@ -28,7 +28,7 @@ In the search results, you can see a list of movies that matches to your search.
 
 ## built-with
 
-Node.js 
+Node.js and express.
 
 ## Installation
 
@@ -39,6 +39,6 @@ npm i nodemon</br>
 npm i jsonfile</br>
 
 ## How to use?
-USERNAME: Admin 
+USERNAME: Admin </br>
 PASSWORD: admin
 

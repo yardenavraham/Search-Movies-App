@@ -11,11 +11,11 @@
 </details>
 
 ## About The Project
-This project is a movie website that was built with Node.js ana express.
-There are 2 data sources - one is a web service and the second is JSON file, one for the new movie, and the other for the new users.
-The menu page allows the user to search movies and create a movie.
-The admin has one more option in the menu to manage all the users - add users, update, and delete.
-Each user has a limited number of transactions. For example, a user that has 3 transactions can do only 3 actions like add 2 movies and create 1 movie. After that, he will be logged off automatically.
+This project is a movie website that was built with Node.js ana express.</br>
+There are 2 data sources - one is a web service and the second is JSON file, one for the new movie, and the other for the new users.</br>
+The menu page allows the user to search movies and create a movie.</br>
+The admin has one more option in the menu to manage all the users - add users, update, and delete.</br>
+Each user has a limited number of transactions. For example, a user that has 3 transactions can do only 3 actions like add 2 movies and create 1 movie. After that, he will be logged off automatically.</br>
 In the search results, you can see a list of movies that matches to your search. Clicking on the name of the movie will give you all the information about the movie (including an image of the data was retrieved from the web service).
 
 

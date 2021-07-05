@@ -1,4 +1,4 @@
-:movie_camera: # Movies Website
+# :movie_camera: Movies Website
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>

@@ -9,6 +9,7 @@
     <li><a href="#how-to-use">How-to-use?</a></li>
   </ol>
 </details>
+
 ## About The Project
 This project is a movie website that was built with Node.js ana express.
 There are 2 data sources - one is a web service and the second is JSON file, one for the new movie, and the other for the new users.

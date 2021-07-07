@@ -8,7 +8,7 @@
     <li><a href="#screen-shots">Screen shots</a></li>
     <li><a href="#built-with">Built with</a></li>
     <li><a href="#installation">Installation</a></li>
-    <li><a href="#how-to-use">How-to use?</a></li>
+    <li><a href="#how-to-use">How to use?</a></li>
   </ol>
 </details>
 
